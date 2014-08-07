@@ -16,7 +16,7 @@ class Address(models.Model):
     country = models.CharField(max_length=100, blank=True)
     lat = models.CharField(max_length=30, blank=True)
     lon = models.CharField(max_length=30, blank=True)
-    place_id = models.CharField(max_length=20, blank=True)
+    osm_place_id = models.CharField(max_length=20, blank=True)
     formatted_address = models.CharField(max_length=200, blank=True)
 
     """
@@ -74,7 +74,7 @@ class Restaurant(models.Model):
     def save(self, *args, **kwargs):
         try:
             address = Address.objects.get(id=self.address.id)
-        except DoesNotExist:
+        except:
             address = Address()
 
         quoted_address = urllib.quote_plus(self.lookup_address.encode('UTF-8'))
@@ -93,27 +93,6 @@ class Restaurant(models.Model):
         address.lon = data[0]['lon']
         address.place_id = data[0]['place_id']
         address.formatted_address = address.road+' '+address.house_number+', '+address.postcode+' '+address.city
-
-        """
-        quoted_address = urllib.quote_plus(self.lookup_address.encode("UTF-8"))
-        url = 'http://maps.googleapis.com/maps/api/geocode/json' + \
-              '?address='+quoted_address
-        jsondata = json.load(urllib2.urlopen(url))
-        all_cmp = jsondata['results'][0]['address_components']
-        type_filter = {'street_number', 'route', 'locality',
-                       'administrative_area_level_1', 'country', 'postal_code'}
-        cmps = [i for i in all_cmp if any(tf in type_filter for tf in i['types'])]
-        address.route = cmps[1]['long_name'].encode("UTF-8")
-        address.street_number = cmps[0]['long_name'].encode("UTF-8")
-        address.postal_code = cmps[5]['long_name'].encode("UTF-8")
-        address.locality = cmps[2]['long_name'].encode("UTF-8")
-        address.area = cmps[3]['long_name'].encode("UTF-8")
-        address.country = cmps[4]['long_name'].encode("UTF-8")
-        address.lat = jsondata["results"][0]["geometry"]["location"]["lat"]
-        address.lng = jsondata["results"][0]["geometry"]["location"]["lng"]
-        address.formatted_address = jsondata["results"][0]["formatted_address"]
-        """
-
         address.save()
 
         self.address = address
@@ -125,40 +104,13 @@ class Restaurant(models.Model):
             return self.address.lon+','+self.address.lat
         else:
             return self.address.lat+','+self.address.lon
-    # get_lat_lon.admin_order_field = 'lat'
+    get_lat_lon.short_description = 'Latitude, Longitude'
 
     def __unicode__(self):
         return self.name
 
     # image_url = models.URLField(max_length=200, blank=True,
     # default='https://dl.dropboxusercontent.com/u/9692604/restaurant.jpg')
-
-"""
-    def save(self, *args, **kwargs):
-        address = Address()
-        quoted_address = urllib.quote_plus(self.lookup_address.encode("UTF-8"))
-        url = 'http://maps.googleapis.com/maps/api/geocode/json' + \
-              '?address='+quoted_address
-        jsondata = json.load(urllib2.urlopen(url))
-        all_cmp = jsondata['results'][0]['address_cmps']
-        type_filter = {'street_number', 'route', 'locality',
-                       'administrative_area_level_1', 'country', 'postal_code'}
-        cmps = [i for i in all_cmp if any(tf in type_filter for tf in i['types'])]
-        address.route = cmps[1]['long_name'].encode("UTF-8")
-        address.street_number = cmps[0]['long_name'].encode("UTF-8")
-        address.postal_code = cmps[5]['long_name'].encode("UTF-8")
-        address.locality = cmps[2]['long_name'].encode("UTF-8")
-        address.area = cmps[3]['long_name'].encode("UTF-8")
-        address.country = cmps[4]['long_name'].encode("UTF-8")
-        address.lat = jsondata["results"][0]["geometry"]["location"]["lat"]
-        address.lng = jsondata["results"][0]["geometry"]["location"]["lng"]
-        address.formatted_address = jsondata["results"][0]["formatted_address"]
-        addr.save()
-
-        self.address = address
-        sleep(.3)
-        super(Restaurant, self).save(*args, **kwargs)
-"""
 
 
 class Website(models.Model):
