@@ -5,7 +5,7 @@ from restaurant_api.models import Restaurant, Address, Website
 class AddressSerializer(serializers.ModelSerializer):
     class Meta:
         model = Address
-        fields = ('route', 'street_number', 'postal_code',)
+        fields = ('formatted_address', 'lat', 'lon',)
 
 
 class WebsiteSerializer(serializers.ModelSerializer):

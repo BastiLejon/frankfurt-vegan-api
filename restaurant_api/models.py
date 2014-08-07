@@ -19,18 +19,6 @@ class Address(models.Model):
     osm_place_id = models.CharField(max_length=20, blank=True)
     formatted_address = models.CharField(max_length=200, blank=True)
 
-    """
-    road = models.CharField(max_length=100, blank=True)
-    street_number = models.CharField(max_length=20, blank=True)
-    postal_code = models.CharField(max_length=20, blank=True)
-    locality = models.CharField(max_length=100, blank=True)
-    area = models.CharField(max_length=100, blank=True)
-    country = models.CharField(max_length=100, blank=True)
-    lat = models.CharField(max_length=30, blank=True)
-    lng = models.CharField(max_length=30, blank=True)
-    formatted_address = models.CharField(max_length=200, blank=True)
-    """
-
     def __unicode__(self):
         return self.formatted_address
 
@@ -38,7 +26,6 @@ class Address(models.Model):
 class Restaurant(models.Model):
     name = models.CharField(max_length=100)
     lookup_address = models.CharField(max_length=100)
-    address = models.OneToOneField(Address, blank=True, related_name='address')
 
     phone_number = models.CharField(max_length=20, blank=True)
     comment = models.TextField(blank=True)
@@ -67,6 +54,7 @@ class Restaurant(models.Model):
     restaurant_type = models.CharField(max_length=25, choices=TYPE_CHOICES,
                                        default=TYPE_FAST_CASUAL,)
 
+    address = models.OneToOneField(Address, blank=True, related_name='address')
     owner = models.ForeignKey(User, related_name='restaurants')
     created = models.DateTimeField(auto_now_add=True)
     last_modified = models.DateTimeField(auto_now=True)
@@ -82,6 +70,7 @@ class Restaurant(models.Model):
               '&addressdetails=1&countrycodes=de&accept-language=de' + \
               '&limit=1&q='+quoted_address
         data = json.load(urllib2.urlopen(url))
+        time.sleep(.5)
         address.house_number = data[0]['address']['house_number']
         address.road = data[0]['address']['road']  # .encode("UTF-8")
         address.suburb = data[0]['address']['suburb']
@@ -91,12 +80,11 @@ class Restaurant(models.Model):
         address.country = data[0]['address']['country']
         address.lat = data[0]['lat']
         address.lon = data[0]['lon']
-        address.place_id = data[0]['place_id']
+        address.osm_place_id = data[0]['place_id']
         address.formatted_address = address.road+' '+address.house_number+', '+address.postcode+' '+address.city
         address.save()
 
         self.address = address
-        time.sleep(.5)
         super(Restaurant, self).save(*args, **kwargs)
 
     def get_lat_lon(self, reversed=False):
@@ -107,7 +95,7 @@ class Restaurant(models.Model):
     get_lat_lon.short_description = 'Latitude, Longitude'
 
     def __unicode__(self):
-        return self.name
+        return self.name + ' ('+self.offerings+')'
 
     # image_url = models.URLField(max_length=200, blank=True,
     # default='https://dl.dropboxusercontent.com/u/9692604/restaurant.jpg')
@@ -128,4 +116,4 @@ class Website(models.Model):
                             default=URL_TYPE_WEB,)
 
     def __unicode__(self):
-        return self.url
+        return self.url + ' ('+self.kind+')'

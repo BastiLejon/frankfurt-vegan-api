@@ -1,6 +1,8 @@
 from django.contrib import admin
 from restaurant_api.models import Restaurant, Address, Website
-# from reverseadmin import ReverseModelAdmin
+
+from django import forms
+from django.contrib.auth import models
 
 
 class AddressAdmin(admin.ModelAdmin):
@@ -21,20 +23,16 @@ class RestaurantAdmin(admin.ModelAdmin):
         ('General information', {'fields': ['name', 'lookup_address', ]}),
         ('Detailed information', {'fields': ['offerings', 'restaurant_type', ]}),
         (None, {'fields': ['comment']}),
-        ('Other', {'fields': ['address', 'owner'], 'classes': ['collapse']}),
+        ('Other', {'fields': ['owner', 'address'], 'classes': ['collapse']}),
     ]
-    # exclude = ('owner',)
     inlines = [WebsiteInline]
     list_display = ('name', 'address', 'get_lat_lon',
                     'offerings', 'created', 'last_modified',)
 
-    def save_model(self, request, obj, form, change):
-        obj.owner = request.user # no need to check for it.
-        obj.save()
-
 admin.site.register(Restaurant, RestaurantAdmin)
 admin.site.register(Address, AddressAdmin)
 admin.site.register(Website, WebsiteAdmin)
+
 
 """
 class BugAdmin( admin.ModelAdmin ):
