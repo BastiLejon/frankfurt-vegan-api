@@ -30,6 +30,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 DEFAULT_APPS = (
+    'suit',  # admin template
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -39,7 +40,6 @@ DEFAULT_APPS = (
 )
 
 THIRD_PARTY_APPS = (
-    'grappelli',
     'rest_framework',
 )
 
@@ -47,7 +47,7 @@ LOCAL_APPS = (
     'restaurant_api',
 )
 
-INSTALLED_APPS = THIRD_PARTY_APPS + LOCAL_APPS + DEFAULT_APPS
+INSTALLED_APPS = DEFAULT_APPS + THIRD_PARTY_APPS + LOCAL_APPS
 
 MIDDLEWARE_CLASSES = (
     'django.contrib.sessions.middleware.SessionMiddleware',
@@ -90,15 +90,16 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/1.6/howto/static-files/
 
-STATIC_ROOT = '/etc/'
-
 STATIC_URL = '/static/'
 
-STATICFILES_FINDERS = (
-    'django.contrib.staticfiles.finders.AppDirectoriesFinder',
-    'django.contrib.staticfiles.finders.FileSystemFinder',
-)
+# Suit admin template
 
-TEMPLATE_CONTEXT_PROCESSORS = (
+from django.conf.global_settings import TEMPLATE_CONTEXT_PROCESSORS as TCP
+
+TEMPLATE_CONTEXT_PROCESSORS = TCP + (
     'django.core.context_processors.request',
 )
+
+SUIT_CONFIG = {
+    'ADMIN_NAME': 'Frankfurt Vegan Admin',
+}
