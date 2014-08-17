@@ -1,0 +1,1134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="538f3a28-0262-44bf-afc0-cfa8416f6baf" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/current.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/restaurant_api/permissions.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/admin/css/base.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/admin/css/changelists.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/admin/css/dashboard.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/admin/css/forms.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/admin/css/ie.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/admin/css/login.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/admin/css/rtl.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/admin/css/widgets.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/admin/img/changelist-bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/admin/img/changelist-bg_rtl.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/admin/img/chooser-bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/admin/img/chooser_stacked-bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/admin/img/default-bg-reverse.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/admin/img/default-bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/admin/img/deleted-overlay.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/admin/img/gis/move_vertex_off.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/admin/img/gis/move_vertex_on.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/admin/img/icon-no.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/admin/img/icon-unknown.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/admin/img/icon-yes.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/admin/img/icon_addlink.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/admin/img/icon_alert.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/admin/img/icon_calendar.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/admin/img/icon_changelink.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/admin/img/icon_clock.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/admin/img/icon_deletelink.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/admin/img/icon_error.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/admin/img/icon_searchbox.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/admin/img/icon_success.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/admin/img/inline-delete-8bit.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/admin/img/inline-delete.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/admin/img/inline-restore-8bit.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/admin/img/inline-restore.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/admin/img/inline-splitter-bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/admin/img/nav-bg-grabber.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/admin/img/nav-bg-reverse.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/admin/img/nav-bg-selected.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/admin/img/nav-bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/admin/img/selector-icons.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/admin/img/selector-search.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/admin/img/sorting-icons.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/admin/img/tool-left.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/admin/img/tool-left_over.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/admin/img/tool-right.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/admin/img/tool-right_over.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/admin/img/tooltag-add.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/admin/img/tooltag-add_over.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/admin/img/tooltag-arrowright.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/admin/img/tooltag-arrowright_over.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/admin/js/LICENSE-JQUERY.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/admin/js/SelectBox.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/admin/js/SelectFilter2.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/admin/js/actions.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/admin/js/actions.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/admin/js/admin/DateTimeShortcuts.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/admin/js/admin/RelatedObjectLookups.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/admin/js/calendar.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/admin/js/collapse.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/admin/js/collapse.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/admin/js/core.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/admin/js/inlines.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/admin/js/inlines.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/admin/js/jquery.init.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/admin/js/jquery.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/admin/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/admin/js/prepopulate.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/admin/js/prepopulate.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/admin/js/timeparse.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/admin/js/urlify.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/images/backgrounds/changelist-results.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/images/backgrounds/loading-small.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/images/backgrounds/messagelist.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/images/backgrounds/nav-grabber.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/images/backgrounds/ui-sortable-placeholder.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/images/icons-s0e29227ce9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/images/icons-small-s7d28d7943b.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/images/icons-small/add-link.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/images/icons-small/add-link_hover.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/images/icons-small/change-link.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/images/icons-small/change-link_hover.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/images/icons-small/delete-link.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/images/icons-small/filter-choice-selected.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/images/icons-small/link-external.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/images/icons-small/link-external_hover.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/images/icons-small/link-internal.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/images/icons-small/link-internal_hover.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/images/icons-small/sort-remove.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/images/icons/add-another.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/images/icons/add-another_hover.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/images/icons/back-link.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/images/icons/back-link_hover.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/images/icons/breadcrumbs-rtl.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/images/icons/breadcrumbs-rtl_hover.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/images/icons/breadcrumbs.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/images/icons/breadcrumbs_hover.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/images/icons/date-hierarchy-back-rtl.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/images/icons/date-hierarchy-back-rtl_hover.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/images/icons/date-hierarchy-back.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/images/icons/date-hierarchy-back_hover.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/images/icons/datepicker.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/images/icons/datepicker_hover.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/images/icons/datetime-now.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/images/icons/datetime-now_hover.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/images/icons/form-select.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/images/icons/object-tools-add-link.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/images/icons/object-tools-viewsite-link.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/images/icons/pulldown-handler.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/images/icons/pulldown-handler_hover.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/images/icons/pulldown-handler_selected.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/images/icons/related-lookup-m2m.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/images/icons/related-lookup-m2m_hover.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/images/icons/related-lookup.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/images/icons/related-lookup_hover.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/images/icons/related-remove.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/images/icons/related-remove_hover.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/images/icons/searchbox.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/images/icons/selector-add-m2m-horizontal.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/images/icons/selector-add-m2m-horizontal_hover.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/images/icons/selector-add-m2m-vertical.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/images/icons/selector-add-m2m-vertical_hover.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/images/icons/selector-filter.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/images/icons/selector-remove-m2m-horizontal.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/images/icons/selector-remove-m2m-horizontal_hover.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/images/icons/selector-remove-m2m-vertical.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/images/icons/selector-remove-m2m-vertical_hover.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/images/icons/sort-remove.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/images/icons/sort-remove_hover.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/images/icons/sorted-ascending.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/images/icons/sorted-descending.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/images/icons/status-no.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/images/icons/status-unknown.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/images/icons/status-yes.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/images/icons/th-ascending.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/images/icons/th-descending.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/images/icons/timepicker.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/images/icons/timepicker_hover.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/images/icons/tools-add-handler.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/images/icons/tools-add-handler_hover.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/images/icons/tools-arrow-down-handler.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/images/icons/tools-arrow-down-handler_hover.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/images/icons/tools-arrow-up-handler.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/images/icons/tools-arrow-up-handler_hover.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/images/icons/tools-close-handler.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/images/icons/tools-close-handler_hover.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/images/icons/tools-delete-handler-predelete.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/images/icons/tools-delete-handler.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/images/icons/tools-delete-handler_hover.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/images/icons/tools-drag-handler.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/images/icons/tools-drag-handler_hover.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/images/icons/tools-open-handler.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/images/icons/tools-open-handler_hover.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/images/icons/tools-remove-handler.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/images/icons/tools-remove-handler_hover.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/images/icons/tools-trash-handler.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/images/icons/tools-trash-handler_hover.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/images/icons/tools-trash-list-toggle-handler.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/images/icons/tools-trash-list-toggle-handler_hover.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/images/icons/tools-viewsite-link.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/images/icons/tools-viewsite-link_hover.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/images/icons/ui-datepicker-next.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/images/icons/ui-datepicker-next_hover.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/images/icons/ui-datepicker-prev.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/images/icons/ui-datepicker-prev_hover.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/img/admin/arrow-down.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/img/admin/arrow-up.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/jquery/i18n/ui.datepicker-de.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/jquery/i18n/ui.datepicker-fr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/jquery/jquery-1.9.1.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/jquery/ui/css/custom-theme/images/animated-overlay.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/jquery/ui/css/custom-theme/images/ui-bg_flat_0_444444_40x100.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/jquery/ui/css/custom-theme/images/ui-bg_flat_0_eeeeee_40x100.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/jquery/ui/css/custom-theme/images/ui-bg_glass_0_444444_1x400.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/jquery/ui/css/custom-theme/images/ui-bg_glass_0_CEE9F2_1x400.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/jquery/ui/css/custom-theme/images/ui-bg_glass_0_bf3030_1x400.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/jquery/ui/css/custom-theme/images/ui-bg_glass_0_ffffff_1x400.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/jquery/ui/css/custom-theme/images/ui-bg_highlight-soft_0_d6d6d6_1x100.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/jquery/ui/css/custom-theme/images/ui-icons_444444_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/jquery/ui/css/custom-theme/images/ui-icons_ffffff_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/jquery/ui/css/custom-theme/jquery-ui-1.10.3.custom.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/jquery/ui/css/custom-theme/jquery-ui-1.10.3.custom.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/jquery/ui/css/ui-lightness/images/animated-overlay.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/jquery/ui/css/ui-lightness/images/ui-bg_diagonals-thick_18_b81900_40x40.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/jquery/ui/css/ui-lightness/images/ui-bg_diagonals-thick_20_666666_40x40.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/jquery/ui/css/ui-lightness/images/ui-bg_flat_10_000000_40x100.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/jquery/ui/css/ui-lightness/images/ui-bg_glass_100_f6f6f6_1x400.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/jquery/ui/css/ui-lightness/images/ui-bg_glass_100_fdf5ce_1x400.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/jquery/ui/css/ui-lightness/images/ui-bg_glass_65_ffffff_1x400.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/jquery/ui/css/ui-lightness/images/ui-bg_gloss-wave_35_f6a828_500x100.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/jquery/ui/css/ui-lightness/images/ui-bg_highlight-soft_100_eeeeee_1x100.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/jquery/ui/css/ui-lightness/images/ui-bg_highlight-soft_75_ffe45c_1x100.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/jquery/ui/css/ui-lightness/images/ui-icons_222222_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/jquery/ui/css/ui-lightness/images/ui-icons_228ef1_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/jquery/ui/css/ui-lightness/images/ui-icons_ef8c08_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/jquery/ui/css/ui-lightness/images/ui-icons_ffd27a_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/jquery/ui/css/ui-lightness/images/ui-icons_ffffff_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/jquery/ui/js/jquery-ui-1.10.3.custom.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/js/grappelli.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/js/grappelli.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/js/jquery.grp_autocomplete_fk.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/js/jquery.grp_autocomplete_generic.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/js/jquery.grp_autocomplete_m2m.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/js/jquery.grp_collapsible.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/js/jquery.grp_collapsible_group.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/js/jquery.grp_inline.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/js/jquery.grp_related_fk.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/js/jquery.grp_related_generic.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/js/jquery.grp_related_m2m.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/js/jquery.grp_timepicker.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/stylesheets/mueller/grid/output-rtl.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/stylesheets/mueller/grid/output.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/stylesheets/mueller/screen.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/stylesheets/partials/custom/tinymce.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/stylesheets/rtl.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/stylesheets/screen.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/changelog.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/examples/accessibility.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/examples/css/content.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/examples/css/word.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/examples/custom_formats.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/examples/full.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/examples/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/examples/lists/image_list.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/examples/lists/link_list.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/examples/lists/media_list.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/examples/lists/template_list.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/examples/media/logo.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/examples/media/logo_over.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/examples/media/sample.avi" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/examples/media/sample.dcr" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/examples/media/sample.flv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/examples/media/sample.mov" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/examples/media/sample.ram" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/examples/media/sample.rm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/examples/media/sample.swf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/examples/menu.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/examples/simple.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/examples/skins.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/examples/templates/layout1.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/examples/templates/snippet1.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/examples/word.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/langs/en.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/license.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/advhr/css/advhr.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/advhr/editor_plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/advhr/editor_plugin_src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/advhr/js/rule.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/advhr/langs/en_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/advhr/rule.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/advimage/css/advimage.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/advimage/editor_plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/advimage/editor_plugin_src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/advimage/image.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/advimage/img/sample.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/advimage/js/image.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/advimage/langs/en_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/advimage_orig/css/advimage.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/advimage_orig/editor_plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/advimage_orig/editor_plugin_src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/advimage_orig/image.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/advimage_orig/img/sample.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/advimage_orig/js/image.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/advimage_orig/langs/en_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/advlink/css/advlink.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/advlink/editor_plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/advlink/editor_plugin_src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/advlink/js/advlink.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/advlink/langs/en_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/advlink/link.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/advlink_orig/css/advlink.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/advlink_orig/editor_plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/advlink_orig/editor_plugin_src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/advlink_orig/js/advlink.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/advlink_orig/langs/en_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/advlink_orig/link.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/advlist/editor_plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/advlist/editor_plugin_src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/autolink/editor_plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/autolink/editor_plugin_src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/autoresize/editor_plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/autoresize/editor_plugin_src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/autosave/editor_plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/autosave/editor_plugin_src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/bbcode/editor_plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/bbcode/editor_plugin_src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/contextmenu/editor_plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/contextmenu/editor_plugin_src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/directionality/editor_plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/directionality/editor_plugin_src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/emotions/editor_plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/emotions/editor_plugin_src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/emotions/emotions.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/emotions/img/smiley-cool.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/emotions/img/smiley-cry.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/emotions/img/smiley-embarassed.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/emotions/img/smiley-foot-in-mouth.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/emotions/img/smiley-frown.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/emotions/img/smiley-innocent.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/emotions/img/smiley-kiss.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/emotions/img/smiley-laughing.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/emotions/img/smiley-money-mouth.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/emotions/img/smiley-sealed.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/emotions/img/smiley-smile.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/emotions/img/smiley-surprised.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/emotions/img/smiley-tongue-out.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/emotions/img/smiley-undecided.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/emotions/img/smiley-wink.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/emotions/img/smiley-yell.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/emotions/js/emotions.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/emotions/langs/en_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/example/dialog.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/example/editor_plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/example/editor_plugin_src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/example/img/example.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/example/js/dialog.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/example/langs/en.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/example/langs/en_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/example_dependency/editor_plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/example_dependency/editor_plugin_src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/fullpage/css/fullpage.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/fullpage/editor_plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/fullpage/editor_plugin_src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/fullpage/fullpage.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/fullpage/js/fullpage.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/fullpage/langs/en_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/fullscreen/editor_plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/fullscreen/editor_plugin_src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/fullscreen/fullscreen.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/grappelli/editor_plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/grappelli/editor_plugin_src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/grappelli/img/show_advanced.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/grappelli/img/visualchars.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/grappelli/langs/cs.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/grappelli/langs/de.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/grappelli/langs/en.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/grappelli/langs/fr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/grappelli/langs/pl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/grappelli/langs/ru.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/grappelli_contextmenu/editor_plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/grappelli_contextmenu/editor_plugin_src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/grappelli_contextmenu/langs/cs.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/grappelli_contextmenu/langs/de.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/grappelli_contextmenu/langs/en.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/grappelli_contextmenu/langs/fr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/grappelli_contextmenu/langs/pl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/grappelli_contextmenu/langs/ru.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/iespell/editor_plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/iespell/editor_plugin_src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/inlinepopups/editor_plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/inlinepopups/editor_plugin_src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/inlinepopups/skins/clearlooks2/img/alert.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/inlinepopups/skins/clearlooks2/img/button.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/inlinepopups/skins/clearlooks2/img/buttons.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/inlinepopups/skins/clearlooks2/img/confirm.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/inlinepopups/skins/clearlooks2/img/corners.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/inlinepopups/skins/clearlooks2/img/horizontal.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/inlinepopups/skins/clearlooks2/img/vertical.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/inlinepopups/skins/clearlooks2/window.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/inlinepopups/template.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/insertdatetime/editor_plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/insertdatetime/editor_plugin_src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/layer/editor_plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/layer/editor_plugin_src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/legacyoutput/editor_plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/legacyoutput/editor_plugin_src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/lists/editor_plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/lists/editor_plugin_src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/media/css/media.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/media/editor_plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/media/editor_plugin_src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/media/js/embed.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/media/js/media.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/media/langs/en_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/media/media.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/media/moxieplayer.swf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/media_orig/css/media.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/media_orig/editor_plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/media_orig/editor_plugin_src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/media_orig/js/embed.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/media_orig/js/media.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/media_orig/langs/en_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/media_orig/media.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/media_orig/moxieplayer.swf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/nonbreaking/editor_plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/nonbreaking/editor_plugin_src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/noneditable/editor_plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/noneditable/editor_plugin_src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/pagebreak/editor_plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/pagebreak/editor_plugin_src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/paste/editor_plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/paste/editor_plugin_src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/paste/js/pastetext.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/paste/js/pasteword.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/paste/langs/en_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/paste/pastetext.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/paste/pasteword.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/paste_orig/editor_plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/paste_orig/editor_plugin_src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/paste_orig/js/pastetext.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/paste_orig/js/pasteword.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/paste_orig/langs/en_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/paste_orig/pastetext.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/paste_orig/pasteword.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/preview/editor_plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/preview/editor_plugin_src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/preview/example.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/preview/jscripts/embed.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/preview/preview.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/print/editor_plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/print/editor_plugin_src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/save/editor_plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/save/editor_plugin_src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/searchreplace/css/searchreplace.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/searchreplace/editor_plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/searchreplace/editor_plugin_src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/searchreplace/js/searchreplace.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/searchreplace/langs/en_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/searchreplace/searchreplace.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/searchreplace_orig/css/searchreplace.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/searchreplace_orig/editor_plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/searchreplace_orig/editor_plugin_src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/searchreplace_orig/js/searchreplace.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/searchreplace_orig/langs/en_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/searchreplace_orig/searchreplace.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/spellchecker/css/content.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/spellchecker/editor_plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/spellchecker/editor_plugin_src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/spellchecker/img/wline.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/style/css/props.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/style/editor_plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/style/editor_plugin_src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/style/js/props.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/style/langs/en_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/style/props.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/style/readme.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/tabfocus/editor_plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/tabfocus/editor_plugin_src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/table/cell.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/table/css/cell.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/table/css/row.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/table/css/table.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/table/editor_plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/table/editor_plugin_src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/table/js/cell.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/table/js/merge_cells.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/table/js/row.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/table/js/table.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/table/langs/en_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/table/merge_cells.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/table/row.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/table/table.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/template/blank.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/template/css/template.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/template/editor_plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/template/editor_plugin_src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/template/js/template.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/template/langs/en_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/template/template.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/template_orig/blank.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/template_orig/css/template.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/template_orig/editor_plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/template_orig/editor_plugin_src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/template_orig/js/template.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/template_orig/langs/en_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/template_orig/template.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/visualblocks/css/visualblocks.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/visualblocks/editor_plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/visualblocks/editor_plugin_src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/visualchars/editor_plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/visualchars/editor_plugin_src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/wordcount/editor_plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/wordcount/editor_plugin_src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/xhtmlxtras/abbr.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/xhtmlxtras/acronym.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/xhtmlxtras/attributes.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/xhtmlxtras/cite.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/xhtmlxtras/css/attributes.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/xhtmlxtras/css/popup.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/xhtmlxtras/del.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/xhtmlxtras/editor_plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/xhtmlxtras/editor_plugin_src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/xhtmlxtras/ins.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/xhtmlxtras/js/abbr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/xhtmlxtras/js/acronym.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/xhtmlxtras/js/attributes.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/xhtmlxtras/js/cite.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/xhtmlxtras/js/del.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/xhtmlxtras/js/element_common.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/xhtmlxtras/js/ins.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/plugins/xhtmlxtras/langs/en_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/about.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/anchor.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/charmap.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/color_picker.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/editor_template.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/editor_template_src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/image.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/img/colorpicker.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/img/flash.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/img/icons.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/img/iframe.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/img/pagebreak.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/img/quicktime.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/img/realmedia.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/img/shockwave.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/img/trans.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/img/video.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/img/windowsmedia.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/js/about.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/js/anchor.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/js/charmap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/js/color_picker.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/js/image.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/js/link.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/js/source_editor.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/langs/en.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/langs/en_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/shortcuts.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/default/content.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/default/dialog.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/default/img/buttons.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/default/img/items.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/default/img/menu_arrow.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/default/img/menu_check.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/default/img/progress.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/default/img/tabs.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/default/ui.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/grappelli/content.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/grappelli/content_base.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/grappelli/content_documentstructure.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/grappelli/content_documentstructure_cs.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/grappelli/content_documentstructure_de.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/grappelli/content_documentstructure_en.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/grappelli/content_documentstructure_pl.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/grappelli/content_grid.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/grappelli/content_typography.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/grappelli/customized.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/grappelli/dialog.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/grappelli/img/buttons/blockquote.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/grappelli/img/buttons/bold.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/grappelli/img/buttons/bullist.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/grappelli/img/buttons/charmap.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/grappelli/img/buttons/cleanup.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/grappelli/img/buttons/code.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/grappelli/img/buttons/fullscreen.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/grappelli/img/buttons/image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/grappelli/img/buttons/italic.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/grappelli/img/buttons/link.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/grappelli/img/buttons/media.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/grappelli/img/buttons/numlist.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/grappelli/img/buttons/pasteword.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/grappelli/img/buttons/redo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/grappelli/img/buttons/search.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/grappelli/img/buttons/show_advanced.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/grappelli/img/buttons/table.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/grappelli/img/buttons/table_cell_props.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/grappelli/img/buttons/table_col_after.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/grappelli/img/buttons/table_col_before.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/grappelli/img/buttons/table_delete_col.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/grappelli/img/buttons/table_delete_row.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/grappelli/img/buttons/table_merge_cells.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/grappelli/img/buttons/table_row_after.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/grappelli/img/buttons/table_row_before.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/grappelli/img/buttons/table_row_props.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/grappelli/img/buttons/table_split_cells.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/grappelli/img/buttons/template.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/grappelli/img/buttons/underline.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/grappelli/img/buttons/undo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/grappelli/img/buttons/unlink.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/grappelli/img/buttons/visualchars.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/grappelli/img/customized/button_pagebreak.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/grappelli/img/customized/pagebreak.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/grappelli/img/icons/icon-fb_show-hover.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/grappelli/img/icons/icon-fb_show.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/grappelli/img/icons/icon-mceResize.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/grappelli/img/menu/icon-mceOpen.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/grappelli/ui.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/highcontrast/content.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/highcontrast/dialog.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/highcontrast/ui.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/o2k7/content.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/o2k7/dialog.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/o2k7/img/button_bg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/o2k7/img/button_bg_black.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/o2k7/img/button_bg_silver.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/o2k7/ui.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/o2k7/ui_black.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/o2k7/ui_silver.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/source_editor.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/themes/simple/editor_template.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/themes/simple/editor_template_src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/themes/simple/img/icons.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/themes/simple/langs/en.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/themes/simple/skins/default/content.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/themes/simple/skins/default/ui.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/themes/simple/skins/o2k7/content.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/themes/simple/skins/o2k7/img/button_bg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/themes/simple/skins/o2k7/ui.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/tiny_mce.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/tiny_mce_popup.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/tiny_mce_src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/utils/editable_selects.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/utils/form_utils.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/utils/mctabs.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce/jscripts/tiny_mce/utils/validate.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/grappelli/tinymce_setup/tinymce_setup.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/rest_framework/css/bootstrap-tweaks.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/rest_framework/css/bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/rest_framework/css/default.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/rest_framework/css/prettify.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/rest_framework/img/glyphicons-halflings-white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/rest_framework/img/glyphicons-halflings.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/rest_framework/img/grid.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/rest_framework/js/bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/rest_framework/js/default.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/rest_framework/js/jquery-1.8.1-min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/rest_framework/js/prettify-min.js" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db.sqlite3" afterPath="$PROJECT_DIR$/db.sqlite3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/restaurant_api/models.py" afterPath="$PROJECT_DIR$/restaurant_api/models.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/restaurant_api/serializers.py" afterPath="$PROJECT_DIR$/restaurant_api/serializers.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frankfurt_vegan/urls.py" afterPath="$PROJECT_DIR$/frankfurt_vegan/urls.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/restaurant_api/views.py" afterPath="$PROJECT_DIR$/restaurant_api/views.py" />
+    </list>
+    <ignored path="current.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="current" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="urls.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/restaurant_api/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
+              <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+              <folding>
+                <element signature="e#0#42#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/restaurant_api/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="630">
+              <caret line="34" column="47" selection-start-line="34" selection-start-column="43" selection-end-line="34" selection-end-column="47" />
+              <folding>
+                <element signature="e#0#44#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="urls.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/frankfurt_vegan/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="300">
+              <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+              <folding>
+                <element signature="e#0#51#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="models.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/restaurant_api/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.44198895" vertical-offset="525" max-vertical-offset="1800">
+              <caret line="56" column="55" selection-start-line="56" selection-start-column="55" selection-end-line="56" selection-end-column="55" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="serializers.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/restaurant_api/serializers.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="450">
+              <caret line="18" column="58" selection-start-line="18" selection-start-column="58" selection-end-line="18" selection-end-column="58" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="true" />
+    </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/frankfurt_vegan/urls.py" />
+        <option value="$PROJECT_DIR$/restaurant_api/permissions.py" />
+        <option value="$PROJECT_DIR$/restaurant_api/views.py" />
+        <option value="$PROJECT_DIR$/restaurant_api/urls.py" />
+        <option value="$PROJECT_DIR$/restaurant_api/serializers.py" />
+        <option value="$PROJECT_DIR$/restaurant_api/models.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="width" value="1366" />
+    <option name="height" value="768" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="current" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="current" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="current" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="current" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="current" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="restaurant_api" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="current" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="current" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="frankfurt_vegan" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="FullScreen" value="true" />
+    <property name="options.lastSelected" value="editor.preferences.appearance" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+  </component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings />
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="tests" factoryName="py.test">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="current" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="testToRun" value="" />
+      <option name="keywords" value="" />
+      <option name="params" value="" />
+      <option name="USE_PARAM" value="false" />
+      <option name="USE_KEYWORD" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Nosetests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="current" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="current" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="current" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="current" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Attests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="current" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <list size="0" />
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="538f3a28-0262-44bf-afc0-cfa8416f6baf" name="Default" comment="" />
+      <created>1407597603299</created>
+      <updated>1407597603299</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1366" height="768" extended-state="0" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18428572" sideWeight="0.49962825" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24981412" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17174721" sideWeight="0.4991119" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.17174721" sideWeight="0.5008881" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18428572" sideWeight="0.50037175" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/restaurant_api/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
+          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/restaurant_api/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="540" max-vertical-offset="630">
+          <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#44#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frankfurt_vegan/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="300">
+          <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#51#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/restaurant_api/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="772" max-vertical-offset="1875">
+          <caret line="67" column="32" selection-start-line="67" selection-start-column="32" selection-end-line="67" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/restaurant_api/serializers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="345" max-vertical-offset="465">
+          <caret line="23" column="24" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/lib/python2.7/site-packages/rest_framework/generics.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="8085">
+          <caret line="46" column="4" selection-start-line="46" selection-start-column="4" selection-end-line="46" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/admin/options.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33333334" vertical-offset="6111" max-vertical-offset="25245">
+          <caret line="460" column="8" selection-start-line="460" selection-start-column="8" selection-end-line="460" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/restaurant_api/permissions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.46332046" vertical-offset="0" max-vertical-offset="518">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/db/models/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33267328" vertical-offset="6762" max-vertical-offset="15330">
+          <caret line="488" column="8" selection-start-line="488" selection-start-column="8" selection-end-line="488" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/restaurant_api/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.9555985" vertical-offset="0" max-vertical-offset="825">
+          <caret line="33" column="42" selection-start-line="33" selection-start-column="42" selection-end-line="33" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frankfurt_vegan/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="300">
+          <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#51#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/restaurant_api/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
+          <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+          <folding>
+            <element signature="e#0#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/restaurant_api/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="87" max-vertical-offset="630">
+          <caret line="34" column="47" selection-start-line="34" selection-start-column="43" selection-end-line="34" selection-end-column="47" />
+          <folding>
+            <element signature="e#0#44#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/restaurant_api/serializers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="450">
+          <caret line="18" column="58" selection-start-line="18" selection-start-column="58" selection-end-line="18" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/restaurant_api/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.44198895" vertical-offset="525" max-vertical-offset="1800">
+          <caret line="56" column="55" selection-start-line="56" selection-start-column="55" selection-end-line="56" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
+

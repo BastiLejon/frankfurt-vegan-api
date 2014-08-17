@@ -6,6 +6,7 @@ class AddressSerializer(serializers.ModelSerializer):
     class Meta:
         model = Address
         fields = ('formatted_address', 'lat', 'lon',)
+        read_only_fields = ('formatted_address', 'lat', 'lon',)
 
 
 class WebsiteSerializer(serializers.ModelSerializer):
@@ -14,9 +15,9 @@ class WebsiteSerializer(serializers.ModelSerializer):
         fields = ('url', 'kind')
 
 
-class RestaurantSerializer(serializers.ModelSerializer):
-    address = AddressSerializer(many=False)
-    websites = WebsiteSerializer(many=True)
+class RestaurantSerializer(serializers.HyperlinkedModelSerializer):
+    address = AddressSerializer(many=False, required=False)
+    websites = WebsiteSerializer(many=True, required=False)
 
     class Meta:
         model = Restaurant
