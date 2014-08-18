@@ -21,5 +21,6 @@ class RestaurantSerializer(serializers.HyperlinkedModelSerializer):
 
     class Meta:
         model = Restaurant
-        fields = ('url', 'name', 'address', 'phone_number', 'websites',
+        fields = ('url', 'name', 'lookup_address', 'address', 'phone_number', 'websites',
                   'offerings', 'restaurant_type', 'comment',)
+        write_only_fields = ('lookup_address',)

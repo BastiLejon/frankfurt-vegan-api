@@ -16,7 +16,7 @@ class WebsiteInline(admin.TabularInline):
 
 class RestaurantAdmin(admin.ModelAdmin):
     fieldsets = [
-        ('General information', {'fields': ['name', 'lookup_address', ]}),
+        ('General information', {'fields': ['name', 'lookup_address', 'phone_number', ]}),
         ('Detailed information', {'fields': ['offerings', 'restaurant_type', ]}),
         (None, {'fields': ['comment']}),
         ('Other', {'fields': ['address'], 'classes': ['collapse']}),
