@@ -27,3 +27,4 @@ class RestaurantAdmin(admin.ModelAdmin):
 
 admin.site.register(Restaurant, RestaurantAdmin)
 admin.site.register(Address, AddressAdmin)
+admin.site.register(Website)
