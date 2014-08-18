@@ -1,3 +1,19 @@
+from rest_framework import viewsets
+from restaurant_api.models import Restaurant
+from restaurant_api.serializers import RestaurantSerializer
+from rest_framework import permissions
+
+
+class RestaurantViewSet(viewsets.ModelViewSet):
+    """
+    This viewset automatically provides `list`, `create`, `retrieve`,
+    `update` and `destroy` actions.
+    """
+    queryset = Restaurant.objects.all()
+    serializer_class = RestaurantSerializer
+    permission_classes = (permissions.IsAuthenticatedOrReadOnly,)
+
+"""
 from restaurant_api.models import Restaurant
 from restaurant_api.serializers import RestaurantSerializer
 from rest_framework import generics
@@ -34,3 +50,4 @@ def api_root(request, format=None):
         # 'users': reverse('user-list', request=request, format=format),
         'restaurants': reverse('restaurant-list', request=request, format=format)
     })
+"""
