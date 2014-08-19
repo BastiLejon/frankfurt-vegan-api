@@ -5,6 +5,10 @@ import requests
 from time import sleep
 import sys
 
+start = raw_input('To start the import type YES: ')
+if start != 'YES':
+    sys.exit(0)
+
 
 data_dict = [
   {
@@ -1110,6 +1114,7 @@ bar_fill_sym = " "
 for i, data in enumerate(data_dict):
     r = requests.post(url, data=json.dumps(data),
                       auth=(user, pswd), headers=headers)
+    """
     print " "
     print " "
     print "NUMBER: " + str(i)
@@ -1117,6 +1122,7 @@ for i, data in enumerate(data_dict):
     print r.json()
     print " "
     print " "
+    """
     progress = int(i/(float(goal)/bar_size)+1)
     sys.stdout.write("\r"+bar_start_sym)
     for j in range(bar_size):

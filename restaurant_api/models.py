@@ -1,27 +1,15 @@
 from django.db import models
-from django.contrib.auth.models import User
 import urllib
 import urllib2
 import json
 import time
 
 
-def geo_google(address, component):
-    time.sleep(2)
-    quoted_address = urllib.quote_plus(address.encode("UTF-8"))
-    url = 'http://maps.googleapis.com/maps/api/geocode/json' + \
-          '?address='+quoted_address
-    jsondata = json.load(urllib2.urlopen(url))
-    if component == 'lat' or 'lng':
-        return jsondata["results"][0]["geometry"]["location"].get(component, '')
-    elif component == 'formatted_address':
-        return jsondata["results"][0].get('formatted_address', '')
-    else:
-        all_components = jsondata['results'][0]['address_components']
-        return ''.join([c.get('long_name', '') for c in all_components if component in c['types']][:1])
-
-
 class Address(models.Model):
+    """
+    Address model, including relevant data received through
+    Googles Geo API
+    """
     house_number = models.CharField(max_length=20, blank=True)
     road = models.CharField(max_length=100, blank=True)
     district = models.CharField(max_length=100, blank=True)
@@ -38,6 +26,11 @@ class Address(models.Model):
 
 
 class Restaurant(models.Model):
+    """
+    Restaurant model, including fields used to describe vegan
+    locations. lookup_address is used as a fuzzy field to
+    receive to correct data through the Google Geo API.
+    """
     name = models.CharField(max_length=100)
     lookup_address = models.CharField(max_length=100, blank=True)
 
@@ -75,6 +68,9 @@ class Restaurant(models.Model):
     last_modified = models.DateTimeField(auto_now=True)
 
     def save(self, *args, **kwargs):
+        """
+        Overrides save method to add Address object through lookup_address
+        """
         if self.lookup_address:
             try:
                 address = Address.objects.get(id=self.address.id)
@@ -101,6 +97,9 @@ class Restaurant(models.Model):
         super(Restaurant, self).save(*args, **kwargs)
 
     def get_lat_lng(self, reversed=False):
+        """
+        Return Latitude and Longitude to display in Django admin
+        """
         if not self.address:
             return "(None)"
         elif reversed:
@@ -114,6 +113,9 @@ class Restaurant(models.Model):
 
 
 class Website(models.Model):
+    """
+    Website model, including url and url-kind
+    """
     restaurant = models.ForeignKey(Restaurant, related_name='websites')
     url = models.URLField(max_length=200)
 
