@@ -1104,7 +1104,7 @@ pswd = 'admin'
 
 goal = len(data_dict)
 print " "
-print "GOAL: " + str(goal)
+print "Import of " + str(goal) + " items starting.."
 bar_size = 50
 bar_start_sym = "["
 bar_end_sym = "]"

@@ -24,8 +24,6 @@ DEBUG = True
 
 TEMPLATE_DEBUG = True
 
-ALLOWED_HOSTS = []
-
 
 # Application definition
 
@@ -73,6 +71,11 @@ DATABASES = {
     }
 }
 
+# Parse database configuration from $DATABASE_URL if on Heroku
+if 'ON_HEROKU' in os.environ:
+    import dj_database_url
+    DATABASES['default'] =  dj_database_url.config()
+
 # Internationalization
 # https://docs.djangoproject.com/en/1.6/topics/i18n/
 
@@ -103,3 +106,22 @@ TEMPLATE_CONTEXT_PROCESSORS = TCP + (
 SUIT_CONFIG = {
     'ADMIN_NAME': 'Frankfurt Vegan Admin',
 }
+
+# START Heroku addition
+
+# Honor the 'X-Forwarded-Proto' header for request.is_secure()
+SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
+
+# Allow all host headers
+ALLOWED_HOSTS = ['*']
+
+# Static asset configuration
+# Static files (CSS, JavaScript, Images)
+# https://docs.djangoproject.com/en/1.6/howto/static-files/
+STATIC_ROOT = 'staticfiles'
+
+STATICFILES_DIRS = (
+    os.path.join(BASE_DIR, 'static'),
+)
+
+# END Heroku additions
