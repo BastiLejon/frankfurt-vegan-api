@@ -5,8 +5,17 @@ import requests
 from time import sleep
 import sys
 
-start = raw_input('To start the import type YES: ')
-if start != 'YES':
+start = raw_input('To start the import type LOCAL or HEROKU: ')
+if start == 'LOCAL':
+    url = 'http://localhost:8000/api/restaurants/'
+    user = raw_input('User: ')
+    pswd = raw_input('Password: ')
+elif start == 'HEROKU':
+    url = 'http://frankfurt-vegan.herokuapp.com/api/v1/restaurants/'
+    user = raw_input('User: ')
+    pswd = raw_input('Password: ')
+else:
+    print "Exiting programm without any action"
     sys.exit(0)
 
 
@@ -1097,14 +1106,12 @@ data_dict = [
 ]
 
 
-url = 'http://localhost:8000/api/restaurants/'
 headers = {'content-type': 'application/json'}
-user = 'sebastian'
-pswd = 'admin'
 
-goal = len(data_dict)
+# Progress bat settings
 print " "
 print "Import of " + str(goal) + " items starting.."
+goal = len(data_dict)
 bar_size = 50
 bar_start_sym = "["
 bar_end_sym = "]"
@@ -1123,6 +1130,7 @@ for i, data in enumerate(data_dict):
     print " "
     print " "
     """
+    # Progress bar code
     progress = int(i/(float(goal)/bar_size)+1)
     sys.stdout.write("\r"+bar_start_sym)
     for j in range(bar_size):
