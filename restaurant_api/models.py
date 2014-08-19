@@ -6,17 +6,31 @@ import json
 import time
 
 
+def geo_google(address, component):
+    time.sleep(2)
+    quoted_address = urllib.quote_plus(address.encode("UTF-8"))
+    url = 'http://maps.googleapis.com/maps/api/geocode/json' + \
+          '?address='+quoted_address
+    jsondata = json.load(urllib2.urlopen(url))
+    if component == 'lat' or 'lng':
+        return jsondata["results"][0]["geometry"]["location"].get(component, '')
+    elif component == 'formatted_address':
+        return jsondata["results"][0].get('formatted_address', '')
+    else:
+        all_components = jsondata['results'][0]['address_components']
+        return ''.join([c.get('long_name', '') for c in all_components if component in c['types']][:1])
+
+
 class Address(models.Model):
     house_number = models.CharField(max_length=20, blank=True)
     road = models.CharField(max_length=100, blank=True)
-    suburb = models.CharField(max_length=100, blank=True)
+    district = models.CharField(max_length=100, blank=True)
     city = models.CharField(max_length=100, blank=True)
     state = models.CharField(max_length=100, blank=True)
     postcode = models.CharField(max_length=20, blank=True)
     country = models.CharField(max_length=100, blank=True)
     lat = models.CharField(max_length=30, blank=True)
-    lon = models.CharField(max_length=30, blank=True)
-    osm_place_id = models.CharField(max_length=20, blank=True)
+    lng = models.CharField(max_length=30, blank=True)
     formatted_address = models.CharField(max_length=200, blank=True)
 
     def __unicode__(self):
@@ -45,11 +59,13 @@ class Restaurant(models.Model):
     TYPE_FAST_FOOD = 'fast_food'
     TYPE_CASUAL_DINING = 'casual_dining'
     TYPE_FINE_DINING = 'fine_dining'
+    TYPE_STORE = 'store'
     TYPE_CHOICES = (
         (TYPE_FAST_CASUAL, 'Fast casual'),
         (TYPE_FAST_FOOD, 'Fast food'),
         (TYPE_CASUAL_DINING, 'Casual dining'),
         (TYPE_FINE_DINING, 'Fine dining'),
+        (TYPE_STORE, 'Store'),
     )
     restaurant_type = models.CharField(max_length=25, choices=TYPE_CHOICES,
                                        default=TYPE_FAST_CASUAL,)
@@ -64,38 +80,34 @@ class Restaurant(models.Model):
                 address = Address.objects.get(id=self.address.id)
             except AttributeError:
                 address = Address()
-
-            quoted_address = urllib.quote_plus(self.lookup_address.encode('UTF-8'))
-            url = 'http://nominatim.openstreetmap.org/search?format=json' + \
-                  '&addressdetails=1&countrycodes=de&accept-language=de' + \
-                  '&limit=1&q='+quoted_address
-            data = json.load(urllib2.urlopen(url))
-            time.sleep(.5)
-            if data:
-                address.house_number = data[0]['address'].get('house_number', '')
-                address.road = data[0]['address'].get('road', '')
-                address.suburb = data[0]['address'].get('suburb', '')
-                address.city = data[0]['address'].get('city', '')
-                address.state = data[0]['address'].get('state', '')
-                address.postcode = data[0]['address'].get('postcode', '')
-                address.country = data[0]['address'].get('country', '')
-                address.lat = data[0].get('lat', '')
-                address.lon = data[0].get('lon', '')
-                address.osm_place_id = data[0].get('place_id', '')
-                address.formatted_address = address.road + ' ' + address.house_number + \
-                    ', '+address.postcode + ' ' + address.city
-                address.save()
+            time.sleep(2)
+            quoted_address = urllib.quote_plus(self.lookup_address.encode("UTF-8"))
+            url = 'http://maps.googleapis.com/maps/api/geocode/json' + \
+                  '?address='+quoted_address
+            jsondata = json.load(urllib2.urlopen(url))
+            all_components = jsondata['results'][0]['address_components']
+            address.house_number = ''.join([c.get('long_name', '') for c in all_components if 'street_number' in c['types']][:1])
+            address.road = ''.join([c.get('long_name', '') for c in all_components if 'route' in c['types']][:1])
+            address.district = ''.join([c.get('long_name', '') for c in all_components if 'sublocality_level_2' in c['types']][:1])
+            address.city = ''.join([c.get('long_name', '') for c in all_components if 'locality' in c['types']][:1])
+            address.state = ''.join([c.get('long_name', '') for c in all_components if 'administrative_area_level_1' in c['types']][:1])
+            address.postcode = ''.join([c.get('long_name', '') for c in all_components if 'postal_code' in c['types']][:1])
+            address.country = ''.join([c.get('long_name', '') for c in all_components if 'country' in c['types']][:1])
+            address.lat = jsondata["results"][0]["geometry"]["location"].get('lat', '')
+            address.lng = jsondata["results"][0]["geometry"]["location"].get('lng', '')
+            address.formatted_address = jsondata["results"][0].get('formatted_address', '')
+            address.save()
             self.address = address
         super(Restaurant, self).save(*args, **kwargs)
 
-    def get_lat_lon(self, reversed=False):
+    def get_lat_lng(self, reversed=False):
         if not self.address:
             return "(None)"
         elif reversed:
-            return self.address.lon+','+self.address.lat
+            return self.address.lng+','+self.address.lat
         else:
-            return self.address.lat+','+self.address.lon
-    get_lat_lon.short_description = 'Latitude, Longitude'
+            return self.address.lat+','+self.address.lng
+    get_lat_lng.short_description = 'Latitude, Longitude'
 
     def __unicode__(self):
         return self.name + ' ('+self.offerings+')'
@@ -107,9 +119,11 @@ class Website(models.Model):
 
     URL_TYPE_WEB = 'website'
     URL_TYPE_FACEBOOK = 'facebook'
+    URL_TYPE_MENU = 'menu'
     URL_TYPE_CHOICES = (
         (URL_TYPE_WEB, 'Website'),
         (URL_TYPE_FACEBOOK, 'Facebook'),
+        (URL_TYPE_MENU, 'Menu')
     )
     kind = models.CharField(max_length=10, choices=URL_TYPE_CHOICES,
                             default=URL_TYPE_WEB,)

@@ -6,7 +6,7 @@ from django.contrib.auth import models
 
 
 class AddressAdmin(admin.ModelAdmin):
-    list_display = ('formatted_address', 'osm_place_id',)
+    list_display = ('formatted_address',)
 
 
 class WebsiteInline(admin.TabularInline):
@@ -22,8 +22,8 @@ class RestaurantAdmin(admin.ModelAdmin):
         ('Other', {'fields': ['address'], 'classes': ['collapse']}),
     ]
     inlines = [WebsiteInline]
-    list_display = ('name', 'address', 'get_lat_lon',
-                    'offerings', 'created', 'last_modified',)
+    list_display = ('name', 'address', 'get_lat_lng',
+                    'offerings', 'last_modified',)
 
 admin.site.register(Restaurant, RestaurantAdmin)
 admin.site.register(Address, AddressAdmin)
