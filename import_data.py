@@ -7,7 +7,7 @@ import sys
 
 start = raw_input('To start the import type LOCAL or HEROKU: ')
 if start == 'LOCAL':
-    url = 'http://localhost:8000/api/restaurants/'
+    url = 'http://localhost:8000/api/v1/restaurants/'
     user = raw_input('User: ')
     pswd = raw_input('Password: ')
 elif start == 'HEROKU':
@@ -1109,9 +1109,9 @@ data_dict = [
 headers = {'content-type': 'application/json'}
 
 # Progress bar settings
+goal = len(data_dict)
 print " "
 print "Import of " + str(goal) + " items starting.."
-goal = len(data_dict)
 bar_size = 50
 bar_start_sym = "["
 bar_end_sym = "]"
