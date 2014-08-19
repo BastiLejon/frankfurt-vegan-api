@@ -1108,7 +1108,7 @@ data_dict = [
 
 headers = {'content-type': 'application/json'}
 
-# Progress bat settings
+# Progress bar settings
 print " "
 print "Import of " + str(goal) + " items starting.."
 goal = len(data_dict)
